@@ -1,0 +1,12 @@
+[
+    {"id":"1","name": "PlayStation®VR 精品套装","price":"￥2799","img":"./img/pic1.png"},
+    {"id":"2","name": "PlayStation®4 Pro(1TB) 黑色","price":"￥2799","img":"./img/pic2.png"},
+    {"id":"3","name": "PlayStation®4 Pro(2TB) 黑色","price":"￥2999","img":"./img/pic3.png"},
+    {"id":"4","name": "PlayStation®4 Pro(1TB)白","price":"￥2799","img":"./img/pic4.png"},
+    {"id":"5","name": "PlayStation®VR虚拟现实游","price":"￥799","img":"./img/pic5.png"},
+    {"id":"6","name": "PS VR 游戏光盘驾驶俱乐部","price":"￥799","img":"./img/pic6.png"},
+    {"id":"7","name": "PS VR 游戏光盘 虚拟现实乐园","price":"￥799","img":"./img/pic7.png"},
+    {"id":"8","name": "PS VR 游戏光盘 世纪战甲大赛","price":"￥299","img":"./img/pic8.png"},
+    {"id":"9","name": "PS VR 游戏光盘 遥远星际","price":"￥299","img":"./img/pic9.png"},
+    {"id":"10","name": "PlayStation®Move动态控制器","price":"￥799","img":"./img/pic10.png"}
+]

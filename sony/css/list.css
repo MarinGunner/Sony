@@ -1,0 +1,74 @@
+body,html{
+    background: #ffffff;
+}
+#car{
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+}
+.car-top{
+    width: 1210px;
+    height: 98px;
+   
+}
+.car-top p{
+    float: left;
+    font-size: 24px;
+    color: #000000;
+   padding: 30px 130px 0 30px;
+}
+.car-top img{
+    padding-top: 30px;
+    float: left;
+}
+.order{
+    width: 1210px;
+    height: 34px;
+}
+.order p{
+    float: left;
+    padding-left: 1050px;
+}
+.order img{
+    padding-left: 20px;
+    float: left;
+}
+.good{
+    width: 1210px;
+    height: 100%;
+}
+.pay{
+    width: 1210px;
+    height: 50px;
+  
+}
+.pay p{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 900px;
+    padding-right: 20px;
+    padding-top: 15px;
+    float: left;
+}
+.btn1{
+    margin-bottom: 10px;
+}
+.btn2{
+    float: left;
+    width:100px;
+    height: 40px;
+    margin-top: 5px;
+}
+.btn3{
+    float: left;
+    width:100px;
+    height: 40px;
+    margin-top: 5px;
+}
+.table img{
+    width: 150px;
+    height: 100px;
+}
+td em{
+    color:red;
+}
