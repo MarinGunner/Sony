@@ -1,0 +1,373 @@
+.head, .banner, .section1, .section2, .section3, .section4, .section5, .copy{margin: 0 auto;}
+.header{
+	width: 100%;height: 100%;
+	background: #000000;s
+}
+	.header .head{
+		width: 100%;height: 76px;
+	}
+	.header .head .logo{
+		float: left;
+	}
+	.header .head .logo img{
+		width: 114px;height: 20px;
+		padding: 30px 0 0 68px;
+		padding-right: 98px;
+	}
+	.header .head ul{
+		float: left;
+	}
+	.header .head ul li{
+		float: left;
+		margin-right: 36px;
+		line-height: 68px;
+	}
+	.header .head ul li a{
+		display: block;
+		color: #cccccc;
+		font-size: 14px;
+		margin-bottom: 2px;
+	}
+	.header .head ul li:nth-child(5){
+		padding-right: 242px;
+	}
+	.header .head ul li a:hover{
+		border-bottom: 5px solid #0290e2;
+	}
+	
+.banner{
+	width: 100%;height: 700px;
+	background: #fefefe url(../img/service/sony01.jpg) center center;
+}
+
+.section1{
+	width: 100%;height: 100%;
+	background: white;
+}
+	.section1 .section{
+		height: 496px;
+	}
+	.section1 h3{
+		font-size: 32px;
+		color: #000000;
+		text-align: center;
+		line-height: 150px;
+	}
+	.section1 ul{
+		clear: both;
+		margin: 18px 0 0 68px;
+	}
+	.section1 ul li{
+		float: left;
+		width: 134px;height: 140px;
+		margin-right: 76px;
+	}
+	.section1 ul li:first-child img{
+		display: block;
+		width: 150px;height: 135px;
+	}
+	.section1 ul li p{
+		margin-top: 50px;
+		font-size: 18px;
+		color: #000000;
+	}
+	.section1 .get h4{
+		clear: both;
+		font-size: 30px;
+		color: #000000;
+		text-align: center;
+		padding-top: 140px;
+		padding-bottom: 50px;
+	}
+	
+.section2{
+	width: 100%;height: 100%;
+	background: white;
+}
+	.section2 .section{
+		height: auto;
+	}
+	.section2 ul {
+		overflow: hidden;
+		padding: 45px 0 0 68px;
+	}
+	.section2 ul li{
+		float: left;
+		background: #eef5f8;
+		width: 595px;height: 206px;
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+	.section2 ul li img{
+		float: left;
+		padding: 45px 0 0 40px;
+	}
+	.section2 ul li .font{
+		float: left;
+		padding: 52px 0 0 30px;
+	}
+	.section2 ul li h3{
+		font-size: 30px;
+		color: #333333;
+		padding-bottom: 30px;
+	}
+	.section2 ul li p{
+		font-size: 18px;
+		color: #656867;
+		line-height: 30px;
+	}
+	.section2 ul li h4{
+		font-size: 16px;
+		color: #636665;
+		padding-left: 305px;
+	}
+	.section2 .get h4{
+		clear: both;
+		font-size: 30px;
+		color: #000000;
+		text-align: center;
+		padding-top: 140px;
+	}
+	
+.section3{
+	width: 100%;height: 100%;
+	background: white;
+}
+	.section3 .section{
+		height: auto;
+	}
+	.section3 ul{
+		margin: 74px 0 0 68px;
+	}
+	.section3 ul li{
+		float: left;
+		width: 285px;height: 390px;
+		margin-right: 20px;
+	}
+	.section3 ul li:first-child{
+		background: url(../img/service/sony11.png) no-repeat center center;
+	}
+	.section3 ul li:nth-child(2){
+		background: url(../img/service/sony12.png) no-repeat center center;
+	}
+	.section3 ul li:nth-child(3){
+		background: url(../img/service/sony13.png) no-repeat center center;
+	}
+	.section3 ul li:last-child{
+		background: url(../img/service/sony14.png) no-repeat center center;
+	}
+	.section3 ul li p{
+		padding: 302px 0 0 66px;
+		font-size: 24px;
+		font-weight: bolder;
+		color: #656565;
+	}
+	.section3 ul li p span{
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 50px;	
+		color: #999999;
+	}
+	.section3 ul li:last-child p span{
+		margin-left: -45px;
+	}
+	.section3 .get h4{
+		clear: both;
+		font-size: 24px;
+		color: #676767;
+		text-align: center;
+		padding-top: 10px;
+	}
+	.section3 .get p{
+		display: block;	
+		text-align: center;
+		padding-top: 14px;
+	}
+	
+.section4{
+	width: 100%;height: 100%;
+	background: #e1e9ef;
+}
+	.section4 .section{
+		height: 574px;
+	}
+	.section4 h2{
+		font-size: 32px;
+		color: #000000;
+		text-align: center;
+		padding-top: 40px;
+		
+	}
+	.section4 ul{
+		margin: 74px 0 0 68px;
+	}
+	.section4 ul li{
+		float: left;
+		width: 285px;height: 390px;
+		margin-right: 20px;
+	}
+	.section4 ul li:first-child{
+		background: url(../img/service/sony16.png) no-repeat center center;
+	}
+	.section4 ul li:nth-child(2){
+		background: url(../img/service/sony17.png) no-repeat center center;
+	}
+	.section4 ul li:nth-child(3){
+		background: url(../img/service/sony18.png) no-repeat center center;
+	}
+	.section4 ul li:last-child{
+		background: url(../img/service/sony19.png) no-repeat center center;
+	}
+	.section4 ul li p{
+		padding: 25px 16px 0 35px;
+		font-size: 24px;
+		font-weight: bolder;
+		color: #656565;
+	}
+	.section4 ul li p a{
+		display: block;
+		text-align: center;
+		border: 1px solid black;
+		border-radius: 10px;
+		padding: 10px 10px;
+	}
+	.section4 ul li:nth-child(1) p a{
+		width: 218px;
+	}
+	
+.section5{
+	width: 100%;height: 100%;
+	background: #eef5f8;
+}
+	.section5 .section{
+		height: 640px;
+	}
+	.section5 h3{
+		font-size: 32px;
+		color: #000000;
+		text-align: center;
+		line-height: 150px;
+	}
+	.section5 ul{
+		width: 1225px;height: 420px;
+		margin: 0 68px 105px 68px;
+	}
+	.section5 ul li{
+		width: 385;height: 190px;
+		background: white;
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	.section5 ul li p{
+		width: 108px;height: 36px;
+		background: #fd593e;
+		font-size: 16px;
+		color: white;
+		text-align: center;
+		line-height: 36px;
+		padding: 0 0;
+	}
+	.section5 ul li a h4{
+		width: 305px;height: 58px;
+		white-space: nowrap;
+		overflow: hidden;	
+		text-overflow: ellipsis;
+		font-size: 22px;
+		color: #2c3640;
+		line-height: 30px;
+		margin-bottom: 30px;
+		padding: 35px 55px 0 28px;
+	}
+	.section5 ul li h5{
+		font-size: 10px;
+		color: #657178;
+		padding: 0 0 25px 35px;
+	}	
+	
+.copyer{
+	width: 100%;height: 100%;
+	background: #1f2024;
+}
+	.copyer .copy{
+		height: 386px;
+	}
+	.copyer .nav{
+		overflow: hidden;
+		border-bottom: 1px solid #333438;
+		padding-bottom: 50px;
+	}
+	.copyer .nav .special{
+		padding: 15px 0 15px 15px;
+		background: #424243;
+		margin-bottom: 5px;
+	}
+	.copyer .nav .special:hover{
+		background: #50bcfd;
+		color: #50bcfd;
+	}
+	.copyer .nav .special a:hover{
+		background: #50bcfd;
+		color: white;
+	}
+	.copyer ul{
+		float: right;
+		margin:20px 0 0 138px;
+		font-size: 14px;
+		color: #808177;
+	}
+	.copyer ul li a{
+		font-size: 14px;
+		color: white;
+	}
+	.copyer ul li a:hover{
+		color: #50bcfd;
+	}
+	.copyer .first img{
+		display: inline-block;
+		width: 100px;height: 16px;
+		padding: 28px 0 0 15px;
+	}
+	.copyer .first span{
+		display: inline-block;
+		padding:28px 0 0 32px;
+		font-size: 12px;
+		color: #494a4d;
+	}
+	.copyer .second{
+		display: inline-block;
+		padding: 20px 0 0 15px;
+	}
+	.copyer .second span{
+		display: inline-block;
+		font-size: 12px;
+		color: #949495;
+		padding-right: 25px;
+	}
+	.copyer .second span:first-child:hover{
+		color: #50bcfd;
+	}
+	.copyer .second span:nth-child(2):hover{
+		color: #50bcfd;
+	}
+	.copyer .second span:last-child{
+		display: inline-block;
+		color: #787878;
+	}
+	.copyer .third span{
+		display: block;	
+		font-size: 12px;	
+		color: #494a4d;
+		padding-left: 285px;
+	}
+	.copyer .third span a{
+		display: inline-block;	
+		color: #949495;
+	}
+	.copyer .third span a:hover{
+		color: #50bcfd;
+	}
+	
+	
+	
+

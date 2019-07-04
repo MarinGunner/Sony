@@ -1,0 +1,1108 @@
+.header{
+	width: 100%;
+	background: #000000;
+}
+	.header .head{
+		overflow: hidden;
+		height: 65px;
+	}
+	.header .head .logo{
+		float: left;
+		padding: 26px 0 0 95px;
+		margin-right: 65px;
+	}
+	.header ul{
+		overflow: hidden;
+		float: left;
+	}
+	.header ul li{
+		float: left;
+		font-size: 16px;
+		color: white;
+		width: 115px;height: 65px;
+		text-align: center;
+		line-height: 65px;
+	}
+	.header ul li:nth-child(4) a{
+		color: #1fa8e2;
+	}
+	.header ul li:nth-child(4):hover a{
+		text-decoration: none;
+		color: #1fa8e2;
+	}
+	.header ul li:nth-child(5) a{
+		font-weight: bold;
+		color: white;
+	}
+	.header ul li:nth-child(6) a{
+		font-weight: bold;
+		color: white;
+	}
+	.header ul li:nth-child(3){
+		width: 235px;height: 30px;
+		line-height: 30px;
+		margin: 15px 130px 0 0;
+	}
+	.header ul li:last-child{
+		width: 50px;height: 65px;
+		margin-left: 25px;
+	}
+	.header ul li:hover{
+		background: white;
+		color: #10a0d5;
+	}
+	.header ul li:nth-child(3){
+		background: #000000;
+	}
+	.header ul li:nth-child(4):hover{
+		background: #000000;
+	}
+	.header ul li:nth-child(5):hover a{
+		text-decoration: none;
+		color: black;
+	}
+	.header ul li:nth-child(6):hover a{
+		text-decoration: none;
+		color: black;
+	}
+	.header ul li:nth-child(7):hover{
+		display: block;
+		text-decoration: none;
+		width: 50px;height: 65px;
+	}
+	
+	
+.banner1{
+	width: 100%;height: 828px;
+	background: #ffffff;
+}
+.banner1 .foot{
+	position: relative;
+}
+.banner1 ul{
+	position: absolute;top: 15px;
+	padding-left: 70px;
+}
+.banner1 ul li{
+	float: left;
+	width: 400px;height: 52px;
+	margin-right: 5px;
+	font-size: 16px;
+	color: #000000;
+	border-bottom: 2px solid #999999;
+}
+.banner1 ul li:hover{
+	color: #0a83d6;
+	border-bottom: 2px solid #0a83d6;
+}
+
+.banner2{
+	width: 100%;height: 390px;
+	background: #f1f4f9;
+}
+	.banner2 p{
+		text-align: center;
+		padding-top: 20px;
+		font-size: 24px;font-weight: bold;
+	}
+	
+.section1{
+	width: 100%;height: 100%;
+	background: #ffffff;
+}
+	.section1 .section{
+		height: 580px;
+	}
+	.section1 p{
+		font-size: 24px;
+		font-weight: bold;	
+		color: #000000;
+		text-align: center;
+		line-height: 70px;
+	}
+	.section1 ul{
+		padding-left: 70px;
+	}
+	.section1 ul li{
+		float: left;
+		display: block;	
+		width: 295px;height: 385px;
+		margin-right: 10px;
+	}
+	.section1 ul li h3{
+		font-size: 24px;
+		color: #333333;
+		line-height: 33px;
+		padding: 35px 0 0 10px;
+	}
+	.section1 ul li p{
+		display: inline;
+		font-size: 16px;
+		font-weight: normal;
+		color: #666666;
+		line-height: 22px;
+		padding: 12px 0 0 10px;
+	}
+	.section1 ul li h4{
+		display: inline;
+		font-size: 16px;
+		font-weight: normal;
+		color: #666666;
+		line-height: 22px;
+		padding: 12px 0 0 10px;
+	}
+	.section1 ul li i{
+		font-size: 14px;
+		font-weight: bolder;
+		color: #0a83d7;
+		line-height: 22px;
+		padding: 8px 0 0 10px;
+	}
+	.section1 ul li a{
+		display: block;
+		width: 295px;height: 385px;
+	}
+	.section1 .back1{
+		background: url(../img/sony52.jpg) no-repeat;
+	}
+	.section1 .back2{
+		background: url(../img/sony53.jpg) no-repeat;
+	}
+	.section1 .back3{
+		background: url(../img/sony54.jpg) no-repeat;
+	}
+	.section1 .back4{
+		background: url(../img/sony55.jpg) no-repeat;
+	}
+	
+.section2{
+	width: 100%;height: 100%;
+	background: #f1f4f9;
+}
+	.section2 .section{
+		height: 1630px;
+	}
+	.section2 p{
+		background: url(../img/sony17.png) no-repeat 582px 28px;
+		font-size: 22px;
+		color:#000000;
+		text-align: center;
+		padding-top: 34px;
+	}
+	.section2 ul{
+		margin:40px 0 0 175px;
+	}
+	.section2 ul li a{
+		float: left;
+		font-size: 12px;
+		color: #6b6b6b;
+		width: 101px;
+		text-align: center;
+		border-right: 1px solid #6b6b6b;
+	}
+	.section2 ul li:first-child a{
+		width: 151px;
+	}
+	.section2 ul li:last-child a{
+		border: none;
+		width: 140px;
+	}
+	.section2 .pic1{
+		padding: 45px 50px 0 50px;
+	}
+	.section2 .pic1 .lf{
+		/*position: relative;
+		z-index: 0;*/
+		width: 50%;
+	}
+	/*.section2 .pic1 .lf em{
+		color: red;
+		display: block;
+		position: absolute;
+		z-index: 10;
+		left: 20px;top:10px;
+	}*/
+	.section2 .pic1 .lf a{
+		width: 600px;height: 703px;
+		display: block;
+		margin-top: 20px;
+		overflow: hidden;
+	}
+	.section2 .pic1 .lf a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	.section2 .pic1 .rt{
+		width: 50%;
+		float: right;
+		padding-top: 15px;
+	}
+	.section2 .pic1 .rt img{
+		padding: 5px;
+	}
+	.section2 .pic1 .rt img1{
+		display: block;
+		width: 295px;height: 398px;
+		overflow: hidden;
+	}
+	.section2 .pic1 .rt img2{
+		display: block;
+		width: 295px;height: 295px;
+		overflow: hidden;
+	}
+	.section2 .pic1 .rt a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	
+	.section2 .pic2{
+		padding: 10px 50px 0 50px;
+	}
+	.section2 .pic2 .lf{
+		float: left;
+		width: 50%;
+	}
+	.section2 .pic2 .lf .img1{
+		width: 600px;height: 295px;
+		display: block;
+		overflow: hidden;
+	}
+	.section2 .pic2 .lf .img2{
+		float: left;
+		width: 295px;height: 398px;
+		display: block;
+		overflow: hidden;
+	}
+	.section2 .pic2 .lf .img3{
+		position: relative;
+		float: left;
+		width: 295px;height: 194px;
+		display: block;
+		overflow: hidden;
+	}
+	.section2 .pic2 .lf .img3 img{
+		position: absolute;	left: 150px;top:75px;
+	}
+	.section2 .pic2 .lf .img4{
+		float: left;
+		width: 295px;height: 194px;
+		display: block;
+		overflow: hidden;
+	}
+	.section2 .pic2 .lf a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	.section2 .pic2 .lf a{
+		display: block;
+		padding: 5px;
+	}
+	.section2 .pic2 .rt{
+		width: 50%;
+		float: right;
+		padding-top: 5px;
+	}
+	.section2 .pic2 .rt a{
+		display: block;
+		width: 600px;height: 703px;
+		overflow: hidden;
+	}
+	.section2 .pic2 .rt a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	.section2 ol{
+		margin: 15px 0 0 55px;
+	}
+	.section2 ol li {
+		float: left;
+		padding-right: 10px;
+		margin-right: 10px;
+		border-right: 1px solid #000000;
+		line-height: 16px;
+	}
+	.section2 ol li:first-child{
+		font-size: 14px;
+		color: #2591e0;
+	}
+	.section2 ol li:nth-child(2){
+		padding-left: 6px;
+	}
+	.section2 ol li:last-child{
+		border: none;
+	}
+	
+.section3{
+	width: 100%;height: 100%;
+	background: #f1f4f9;
+}
+	.section3 .section{
+		height: 1620px;
+	}
+	.section3 p{
+		background: url(../img/sony18.png) no-repeat 582px 21px;
+		font-size: 22px;
+		color:#000000;
+		text-align: center;
+		padding-top: 34px;
+	}
+	.section3 ul{
+		margin:40px 0 0 175px;
+	}
+	.section3 ul li a{
+		float: left;
+		font-size: 12px;
+		color: #6b6b6b;
+		width: 101px;
+		text-align: center;
+		border-right: 1px solid #6b6b6b;
+	}
+	.section3 ul li:first-child a{
+		padding-right: 20px;
+	}
+	.section3 ul li:nth-child(2) a{
+		padding-left: 20px;padding-right: 20px;
+	}
+	.section3 ul li:last-child a{
+		border: none;
+	}
+	.section3 .pic1{
+		padding: 45px 50px 0 50px;
+	}
+	.section3 .pic1 .lf{
+		/*position: relative;
+		z-index: 0;*/
+		width: 50%;
+	}
+	/*.section3 .pic1 .lf em{
+		color: red;
+		display: block;
+		position: absolute;
+		z-index: 10;
+		left: 20px;top:10px;
+	}*/
+	.section3 .pic1 .lf a{
+		width: 600px;height: 703px;
+		display: block;
+		margin-top: 20px;
+		overflow: hidden;
+	}
+	.section3 .pic1 .lf a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	.section3 .pic1 .rt{
+		width: 50%;
+		float: right;
+		padding-top: 15px;
+	}
+	.section3 .pic1 .rt img{
+		padding: 5px;
+	}
+	.section3 .pic1 .rt img1{
+		display: block;
+		width: 295px;height: 398px;
+		overflow: hidden;
+	}
+	.section3 .pic1 .rt img2{
+		display: block;
+		width: 295px;height: 295px;
+		overflow: hidden;
+	}
+	.section3 .pic1 .rt a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	
+	.section3 .pic2{
+		padding: 10px 50px 0 50px;
+	}
+	.section3 .pic2 .lf{
+		float: left;
+		width: 50%;
+	}
+	.section3 .pic2 .lf .img1{
+		width: 600px;height: 295px;
+		display: block;
+		overflow: hidden;
+	}
+	.section3 .pic2 .lf .img2{
+		float: left;
+		width: 295px;height: 398px;
+		display: block;
+		overflow: hidden;
+	}
+	.section3 .pic2 .lf .img3{
+		float: left;
+		width: 295px;height: 194px;
+		display: block;
+		overflow: hidden;
+	}
+	.section3 .pic2 .lf .img4{
+		position: relative;
+		float: left;
+		width: 295px;height: 194px;
+		display: block;
+		overflow: hidden;
+	}
+	.section3 .pic2 .lf .img4 img{
+		position: absolute;	left: 150px;top:75px;
+	}
+	.section3 .pic2 .lf a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	.section3 .pic2 .lf a{
+		display: block;
+		padding: 5px;
+	}
+	.section3 .pic2 .rt{
+		width: 50%;
+		float: right;
+		padding-top: 5px;
+	}
+	.section3 .pic2 .rt a{
+		display: block;
+		width: 600px;height: 703px;
+		overflow: hidden;
+	}
+	.section3 .pic2 .rt a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	.section3 ol{
+		padding: 15px 0 0 55px;
+	}
+	.section3 ol li{
+		float: left;
+		padding-right: 10px;
+		margin-right: 10px;
+		border-right: 1px solid #000000;
+		line-height: 16px;
+	}
+	.section3 ol li:first-child{
+		font-size: 14px;
+		color: #2591e0;
+	}
+	.section3 ol li:nth-child(2){
+		padding-left: 6px;
+	}
+	.section3 ol li:last-child{
+		border: none;
+	}
+	
+.section4{
+	width: 100%;height: 100%;
+	background: #f1f4f9;
+}
+	.section4 .section{
+		height: 1310px;
+	}
+	.section4 p{
+		background: url(../img/sony19.png) no-repeat 582px 28px;
+		font-size: 22px;
+		color:#000000;
+		text-align: center;
+		padding-top: 34px;
+	}
+	.section4 ul{
+		margin:40px 0 0 400px;
+	}
+	.section4 ul li a{
+		float: left;
+		font-size: 12px;
+		color: #6b6b6b;
+		width: 110px;
+		text-align: center;
+		border-right: 1px solid #6b6b6b;
+	}
+	.section4 ul li:first-child a{
+		padding-right: 20px;
+	}
+	.section4 ul li:nth-child(3) a{
+		padding-left: 20px;padding-right: 20px;
+	}
+	.section4 ul li:last-child a{
+		border: none;
+	}
+	.section4 .pic1{
+		padding: 45px 50px 0 50px;
+	}
+	.section4 .pic1 .lf{
+		/*position: relative;
+		z-index: 0;*/
+		width: 50%;
+	}
+	/*.section3 .pic1 .lf em{
+		color: red;
+		display: block;
+		position: absolute;
+		z-index: 10;
+		left: 20px;top:10px;
+	}*/
+	.section4 .pic1 .lf a{
+		width: 600px;height: 703px;
+		display: block;
+		margin-top: 20px;
+		overflow: hidden;
+	}
+	.section4 .pic1 .lf a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	.section4 .pic1 .rt{
+		width: 50%;
+		float: right;
+		padding-top: 15px;
+	}
+	.section4 .pic1 .rt .img{
+		padding: 5px;
+	}
+	.section4 .pic1 .rt img1{
+		display: block;
+		width: 295px;height: 398px;
+		overflow: hidden;
+	}
+	.section4 .pic1 .rt .img2 img{
+		float: left;
+		display: block;
+		width: 295px;height: 295px;
+		overflow: hidden;
+	}
+	.section4 .pic1 .rt a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	.section4 .pic2{
+		padding: 10px 50px 0 50px;
+	}
+	.section4 .pic2 .lf{
+		float: left;
+		width: 50%;
+	}
+	.section4 .pic2 .lf .img1{
+		width: 600px;height: 295px;
+		display: block;
+		overflow: hidden;
+	}
+	.section4 .pic2 .lf .img2{
+		float: left;
+		width: 295px;height: 398px;
+		display: block;
+		overflow: hidden;
+	}
+	.section4 .pic2 .lf .img3{
+		float: left;
+		width: 295px;height: 194px;
+		display: block;
+		overflow: hidden;
+	}
+	.section4 .pic2 .lf .img4{
+		position: relative;
+		float: left;
+		width: 295px;height: 194px;
+		display: block;
+		overflow: hidden;
+	}
+	.section4 .pic2 .lf .img4 img{
+		position: absolute;	left: 150px;top:75px;
+	}
+	.section4 .pic2 .lf a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	.section4 .pic2 .lf a{
+		display: block;
+		padding: 5px;
+	}
+	.section4 .pic2 .lf .img3{
+		display: block;
+		position: relative;
+	}
+	.section4 .pic2 .lf .img3 img{
+		position: absolute;left:166px;top: 95px;
+	}
+	.section4 .pic2 .rt{
+		width: 50%;
+		float: right;
+		padding-top: 5px;
+	}
+	.section4 .pic2 .rt .lf a{
+		position: relative;
+		display: block;	
+		width: 295px;height: 194px;
+	}
+	.section4 .pic2 .rt .lf a img{
+		display: block;
+		position: absolute;	left:180px;top: 70px;
+	}
+	.section4 .pic2 .rt .right a{
+		position: relative;
+		display: block;
+		float: right;	
+		width: 295px;height: 398px;
+	}
+	.section4 .pic2 .rt .right a img{
+		display: block;
+		position: absolute;top: 210px;
+	}
+	.section4 .pic2 .rt a img:nth-child(3){
+		float: left;
+	}
+	.section4 .pic2 .rt a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	.section4 ol{
+		padding: 15px 0 0 55px;
+	}
+	.section4 ol li{
+		float: left;
+		padding-right: 10px;
+		margin-right: 10px;
+		border-right: 1px solid #000000;
+		line-height: 16px;
+	}
+	.section4 ol li:first-child{
+		font-size: 14px;
+		color: #2591e0;
+	}
+	.section4 ol li:nth-child(2){
+		padding-left: 6px;
+	}
+	.section4 ol li:last-child{
+		border: none;
+	}
+	
+.section5{
+	width: 100%;height: 100%;
+	background: #f1f4f9;
+}
+	.section5 .section{
+		height: 896px;
+	}
+	.section5 p{
+		background: url(../img/sony24.png) no-repeat 582px 22px;
+		font-size: 22px;
+		color:#000000;
+		text-align: center;
+		padding-top: 34px;
+	}
+	.section5 ul{
+		margin:40px 0 80px 450px;
+	}
+	.section5 ul li a{
+		float: left;
+		font-size: 12px;
+		color: #6b6b6b;
+		width: 101px;
+		text-align: center;
+		border-right: 1px solid #6b6b6b;
+	}
+	.section5 ul li:nth-child(3) a{
+		width: 151px;
+	}
+	.section5 ul li:last-child a{
+		border: none;
+		width: 140px;
+	}
+	.section5 .pic{
+		padding: 10px 50px 0 50px;
+	}
+	.section5 .pic .lf{
+		clear: both;
+		float: left;
+		width: 50%;
+	}
+	.section5 .pic .lf .img1{
+		clear: both;
+		position: relative;
+		width: 600px;height: 295px;
+		display: block;
+		overflow: hidden;
+	}
+	.section5 .pic .lf .img2{
+		position: relative;
+		float: left;
+		width: 295px;height: 398px;
+		display: block;
+		overflow: hidden;
+	}
+	.section5 .pic .lf .img3{
+		position: relative;
+		float: left;
+		width: 295px;height: 398px;
+		display: block;
+		overflow: hidden;
+	}
+	.section5 .pic .lf .img1 img{
+		position: absolute;	left: 246px;top:80px;
+	}
+	.section5 .pic .lf .img2 img{
+		position: absolute;	left: 0;top:210px;
+	}
+	.section5 .pic .lf .img3 img{
+		position: absolute;	left: 35px;top:210px;
+	}
+	.section5 .pic .lf a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	.section5 .pic .lf a{
+		display: block;
+		padding: 5px;
+	}
+	.section5 .pic2 .rt{
+		width: 50%;
+		float: right;
+		padding-top: 5px;
+	}
+	.section5 .pic .rt a{
+		display: block;
+		width: 600px;height: 703px;
+		overflow: hidden;
+	}
+	.section5 .pic .rt a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	.section5 ol{
+		margin: 15px 0 0 55px;
+	}
+	.section5 ol li {
+		float: left;
+		padding-right: 10px;
+		margin-right: 10px;
+		border-right: 1px solid #000000;
+		line-height: 16px;
+	}
+	.section5 ol li:first-child{
+		font-size: 14px;
+		color: #2591e0;
+	}
+	.section5 ol li:nth-child(2){
+		padding-left: 6px;
+	}
+	.section5 ol li:last-child{
+		border: none;
+	}
+	
+.section6{
+	width: 100%;height: 100%;
+	background: #0a83d6;
+}
+	.section6 .section{
+		height: 1320px;
+	}
+	.section6 p{
+		background: url(../img/sony25.png) no-repeat 510px 25px;
+		font-size: 22px;
+		color:white;
+		text-align: center;
+		padding-top: 34px;
+	}
+	.section6 ul{
+		margin:40px 0 80px 450px;
+	}
+	.section6 ul li a{
+		float: left;
+		font-size: 12px;
+		color: white;
+		width: 101px;
+		text-align: center;
+		border-right: 1px solid white;
+	}
+	.section6 ul li:nth-child(3) a{
+		width: 151px;
+	}
+	.section6 ul li:last-child a{
+		border: none;
+		width: 140px;
+	}
+	.section6 .pic{
+		padding: 10px 50px 0 50px;
+	}
+	.section6 .pic .lf{
+		clear: both;
+		float: left;
+		width: 50%;
+	}
+	.section6 .pic .lf .img1{
+		clear: both;
+		width: 600px;height: 295px;
+		display: block;
+		overflow: hidden;
+	}
+	.section6 .pic .lf .img2{
+		float: left;
+		width: 295px;height: 398px;
+		display: block;
+		overflow: hidden;
+	}
+	.section6 .pic .lf .img3{
+		float: left;
+		width: 295px;height: 398px;
+		display: block;
+		overflow: hidden;
+	}
+	.section6 .pic .lf a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	.section6 .pic .lf a{
+		display: block;
+		padding: 5px;
+	}
+	.section6 .pic .rt{
+		width: 50%;
+		float: right;
+		padding-top: 5px;
+	}
+	.section6 .pic .rt a{
+		display: block;
+		width: 600px;height: 703px;
+		overflow: hidden;
+	}
+	.section6 .pic .rt a img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	.section6 ol{
+		clear: both;
+		padding: 10px 55px 0 55px;
+	}
+	.section6 ol li{
+		float: left;
+		padding-right: 10px;
+		width: 295;height: 398px;
+	}
+	.section6 ol li a{
+		display: inline-block;
+		width: 295;height: 398px;
+	}
+	.section6 ol li img:hover{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: 1s;
+		transition: 1s;
+	}
+	
+.section7{
+	width: 100%;height: 100%;
+	background: #ffffff;
+}
+	.section7 .pic{
+		clear: both;
+		margin:0 50px 0 50px;
+	}
+	.section7 .pic ul li{
+		float: left;
+		width: 396px;height: 236px;
+		padding: 30px 13px 0 0;
+	}
+	.section7 .pic p{
+		font-size: 16px;
+		font-weight: bold;
+		color: #000000;
+		padding: 15px 0 0 0;
+	}
+	.section7 .pic p:first-child{
+		padding-left: 75px;
+	}
+	.section7 .nav{
+		clear: both;
+		width: 100%;
+		padding: 50px 55px 0 55px;
+	}
+	.section7 .nav ul li{
+		float: left;
+		width: 242px;height: 120px;
+		border: 1px solid #ccc;
+		text-align: center;
+	}
+	.section7 .nav ul li img{
+		padding-top: 20px;
+		color: black;
+	}
+	.section7 .nav ul li:first-child{
+		border-left: none;
+	}
+	.section7 .nav ul li:last-child{
+		border-right: none;
+	}
+	.section7 .nav ul li .img2{
+		display: none;
+	}
+	.section7 .nav ul li:hover .img1{
+		display: none;
+	}
+	.section7 .nav ul li:hover .img2{
+		display: block;
+		padding-left: 60px;
+	}
+	.section7 .font{
+		clear: both;
+		width: 100%;
+		padding-top: 25px;
+	}
+	.section7 .font .lf{
+		clear: both;
+		width: 54%;
+		padding: 25px 0 42px 52px;
+		border-right:1px solid #cccccc;
+	}
+	.section7 .font .lf ul li{
+		font-size: 12px;
+		color: #000000;
+		line-height: 25px;
+	}
+	.section7 .font .lf ul h3{
+		font-size: 20px;
+		color: #000000;
+		padding-bottom: 18px;
+	}
+	.section7 .font .lf ul li p{
+		font-size: 10px;
+		color: #cfcccc;
+	}
+	.footer ul li .search{
+		display: block;
+		background: url(../img/sony27.png) no-repeat 0 center;
+	}
+	.section7 .font .lf{
+		float: left;	
+	}
+	.section7 .font .rt{
+		float: left;
+		padding: 15px 0 0 20px;	
+	}
+	.section7 .font .rt h3{
+		font-size: 20px;
+		color: #0000000;
+		padding-bottom: 18px;
+	}
+	.section7 .font .rt ul li{
+		float: left;
+		width: 85px;
+		font-size: 12px;
+		line-height: 30px;
+		color: #000000;
+		text-align: center;
+		padding-right: 25px;
+	}
+	.section7 .font .rt ul li:nth-child(2) a{
+		color: #3f80b8;
+	}
+	.section7 .font .rt ul li:last-child a{
+		color: #3f80b8;
+	}
+
+.copyer{
+	width: 100%;height: 100%;
+	background: white;
+}
+	.copyer .copy{
+		clear: both;
+		height: 100%;
+	}
+	
+.footer{
+	width: 100%;height: 100%;
+	background: #000000;
+}	
+	.footer ul{
+		padding: 35px 0 220px 0;
+		margin-left: 55px;
+		margin-right: 55px;
+		border-bottom:1px solid #ccc;
+	}
+	.footer ul li{
+		float: left;
+		padding-right: 75px;
+	}
+	.footer ul li p a{
+		font-size: 12px;
+		line-height: 30px;
+		color: #6a6a6a;
+	}
+	.footer ul li p:hover a{
+		color: white;
+	}
+	.footer ul li p:first-child a{
+		font-size: 14px;
+		color: white;
+	}
+	.footer ul li:first-child{
+		padding-right: 125px;
+	}
+	.footer ul li:nth-child(2){
+		padding-right: 220px;
+	}
+	.footer .nav{
+		margin: 0 55px;
+		padding: 18px 0;
+	}
+	.footer .nav span{
+		padding-right: 40px;
+	}
+	.footer .nav span a{
+		font-size: 14px;
+		color: white;
+	}
+	.footer .nav span:nth-child(5){
+		padding-right: 425px;
+	}
+	.footer .copy{
+		margin: 0 55px 60px 55px;
+	}
+	.footer .copy span{
+		font-size: 12px;
+		color: #6a6a6a;
+		padding-right: 30px;
+	}
+	.footer .copy span:nth-child(4){
+		padding-right:220px;
+	}
+	.footer .copy span:last-child a{
+		color: blue;
+		font-weight: bolder;
+	} 
+	.footer .copy span:nth-child(3){
+		background: url(../img/sony29.png) no-repeat 0 center;
+		text-indent: 20px;
+	} 
+	.footer .copy span:nth-child(3) a{
+		padding-left: 30px;
+	} 
