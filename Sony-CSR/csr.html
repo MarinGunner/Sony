@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSR首页</title>
+    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="csr.css">
+    <script src="jquery-1.8.3.js"></script>
+    <link rel="stylesheet" href="swiper.min.css">
+    <script src="swiper.min.js"></script>
+</head>
+
+<body>
+    <div class="t-wrap">
+        <!--head-->
+        <div class="t-head">
+            <div class="t-head-top">
+                <div>
+                    <a href="#"><img src="img/sony-logo.jpg"></a>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">Sony&nbsp;Group&nbsp;Site</a></li>
+                        <li><a href="#"><span>索尼中国</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--nav-->
+        <div class="t-nav">
+            <div class="t-nav-all">
+                <div>
+                    <ul>
+                        <li><a href="#">索尼产品<img src="img/sony-010.jpg" /></a></li>
+                        <li><a href="#">服务与支持</a></li>
+                        <li><a href="#">企业社会责任</a></li>
+                        <li><a href="#">人才招聘</a></li>
+                        <li><a href="#">新闻中心</a></li>
+                        <li><a href="#">关于索尼</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <form action="" class="form">
+                        <input class="text" type="text">
+                        <img src="img/sony-005.jpg">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <script>
+            // $('.navList').bind({
+            //     mouseover: function () {
+            //         $(".navSection").show()
+            //     },mouseleave: function () {
+            //         $(".navSection").hide()
+            //     }
+            // });
+
+            // $('.t-nav-all ul li').eq(0).mouseenter(function(){
+            //     $('.navSection').css('display','block')
+            // }).mouseout(function(){
+            //     $('navSection').mouseleave(function(){
+            //         $('.navSection').css('display','none');
+            //     });
+            // })
+
+            $(".t-nav-all ul li").eq(0).mouseenter(function () {
+
+                $(".navSection").css("display", "block")
+
+            }).mouseout(function () {
+                $(".navSection").mouseleave(function () {
+                    $(".navSection").css("display", "none");
+                });
+            });
+
+
+
+
+
+        </script>
+        <!--navSection-->
+        <div class="navSection">
+            <div class="navSection-a">
+                <div class="navSection-l">
+                    <p>消费电子产品</p><span><a href="#">前往Sony&nbsp;Store&nbsp;在线商城<img
+                                src="img/sony-011.jpg" /></a></span>
+                </div>
+                <div class="navSection-r">
+                    <p>专业产品</p><span><a href="#">前往Sony&nbsp;Store&nbsp;专业系统<img src="img/sony-011.jpg" /></a></span>
+                </div>
+            </div>
+
+            <!-- navSection-b -->
+            <div class="navSection-b">
+                <div>
+                    <dl>
+                        <dt>PlayStaionⒽ</dt>
+                        <dd><a href="#">• PlayStaionⓇ4 pro</a></dd>
+                        <dd><a href="#">• PlayStaionⓇ4 </a></dd>
+                        <dd><a href="vr.html">• PlayStaionⓇVR</a></dd>
+                        <dd><a href="#">• PlayStaionⓇVita</a></dd>
+                        <dd><a href="#">• PlayStaionⓇ游戏</a></dd>
+                        <dd><a href="#">• PlayStaionⓇ配件</a></dd>
+                    </dl>
+
+                    <dl>
+                        <dt>潮玩科技</dt>
+                        <dd><a href="#">• 智能手机</a></dd>
+                        <dd><a href="#">• 智能手机配件</a></dd>
+                        <dd><a href="#">• 智能手机投影仪</a></dd>
+                        <dd><a href="#">• KOOV™教育机器人</a></dd>
+                    </dl>
+                </div>
+                <div>
+                    <dl>
+                        <dt>家庭影像产品</dt>
+                        <dd><a href="#">• 电视机</a></dd>
+                        <dd><a href="#">• 4K/2K播放器</a></dd>
+                        <dd><a href="#">• 投影仪</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>家庭音响产品</dt>
+                        <dd><a href="#">• 家庭影像系统</a></dd>
+                        <dd><a href="#">• 家庭音频系统</a></dd>
+                        <dd><a href="#">• 高保真音音响组件</a></dd>
+                        <dd><a href="#">• 无线扬声器</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>便携音频产品</dt>
+                        <dd><a href="#">• MP4/MP3播放器</a></dd>
+                        <dd><a href="#">• 数码录音棒</a></dd>
+                        <dd><a href="#">• 耳机</a></dd>
+                        <dd><a href="#">• 闹钟收音机</a></dd>
+                    </dl>
+                </div>
+                <div>
+                    <dl>
+                        <dt>数码影像产品</dt>
+                        <dd><a href="#">• 微单™数码相机</a></dd>
+                        <dd><a href="#">• 镜头</a></dd>
+                        <dd><a href="#">• 数码相机</a></dd>
+                        <dd><a href="#">• 数码摄像机</a></dd>
+                        <dd><a href="#">• 运动相机</a></dd>
+                        <dd><a href="#">• 数码影像产品配件</a></dd>
+                        <dd><a href="#">• 索尼存储卡</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>数码配件</dt>
+                        <dd><a href="#">• 数码配件首页</a></dd>
+                        <dd><a href="#">• 液晶电视机配件</a></dd>
+                        <dd><a href="#">• 视频游戏机配件</a></dd>
+                        <dd><a href="#">• 数码产品配件</a></dd>
+                        <dd><a href="#">• 手机产品配件</a></dd>
+                        <dd><a href="#">• 音频产品配件</a></dd>
+                    </dl>
+                </div>
+                <div>
+                    <dl>
+                        <dt>高解析度音频设备</dt>
+                        <dd><a href="#">• 高解析度音频设备</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>民用记录媒体及能源</dt>
+                        <dd><a href="#">• 光学记录媒体</a></dd>
+                        <dd><a href="#">• 民用记录媒体</a></dd>
+                        <dd><a href="#">• 闪存记录媒体</a></dd>
+                        <dd><a href="#">• 移动硬盘</a></dd>
+                        <dd><a href="#">• 移动电源</a></dd>
+                        <dd><a href="#">• 碱性电池</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>消费电子产品解决方案</dt>
+                    </dl>
+                </div>
+                <div>
+                    <dl>
+                        <dt>专业系统产品</dt>
+                        <dd><a href="#">• 广播和制作</a></dd>
+                        <dd><a href="#">• 投影仪/放映机</a></dd>
+                        <dd><a href="#">• 专业摄像机</a></dd>
+                        <dd><a href="#">• 视频安防</a></dd>
+                        <dd><a href="#">• 存储和内容管理</a></dd>
+                        <dd><a href="#">• 医疗</a></dd>
+                        <dd><a href="#">• 网络摄像机系统</a></dd>
+                        <dd><a href="#">• 专业显示器</a></dd>
+                        <dd><a href="#">• 电子纸</a></dd>
+                    </dl>
+                </div>
+                <div>
+                    <dl>
+                        <dt>电子元器件</dt>
+                        <dd><a href="#">• 半导体</a></dd>
+                        <dd><a href="#">• 工业摄像机模组</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>专业记录媒体</dt>
+                        <dd><a href="#">• 专业记录媒体</a></dd>
+                        <dd><a href="#">• 数据存储媒体</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>品牌高级车载音响系统</dt>
+                    </dl>
+                </div>
+            </div>
+            <div class="navSection-c">
+                <p><a href="#">索尼中国顾客咨询热线400-810-9000<img src="img/sony-012.jpg" /></a></p>
+            </div>
+        </div>
+        <!--nav1-->
+        <div class="t-nav1">
+            <ul>
+                <li class="active"><a href="#" style="color: #6dbee6;">首页</a></li>
+                <li><a href="#">公司治理</a></li>
+                <li><a href="#">责任管理</a></li>
+                <li><a href="#">员工责任</a></li>
+                <li><a href="#">产品责任</a></li>
+                <li><a href="#">社区与教育</a></li>
+                <li><a href="#">环境责任</a></li>
+                <li><a href="#">高层致辞</a></li>
+            </ul>
+        </div>
+        <div class="ycxs">
+            <div class="con show">
+
+                <!--haobao-->
+                <div class="t-haibao">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><a href="#"><img src="img/banner_b_02.jpg" alt="" /></a></div>
+                            <div class="swiper-slide"><a href="#"><img src="img/banner_b_01.jpg" alt="" /></a></div>
+                            <div class="swiper-slide"><a href="#"><img src="img/banner_b_03.jpg" alt="" /></a></div>
+                        </div>
+                    </div>
+
+                    <script>
+                        var mySwiper = new Swiper('.swiper-container', {
+                            direction: 'horizontal', // 垂直切换选项
+                            loop: true, // 循环模式选项
+                            autoplay: true,
+                        })
+
+
+                    </script>
+
+
+
+
+                    <!-- t-haibao-b -->
+                    <div class="t-haibao-b">
+                        <div class="t-haibao-index">
+                            <p style="background-color: #6dbee6;"><img src="img/sony-bf.jpg"><a href="#">索尼梦想教室</a>
+                            </p>
+                            <img src="img/banner_s_01.jpg">
+                        </div>
+                        <div class="t-haibao-index">
+                            <p style="background-color: #80bc21;"><img src="img/sony-bf2.jpg"><a href="#">索尼梦想教室</a>
+                            </p>
+                            <img src="img/banner_s_01.jpg">
+                        </div>
+                        <div class="t-haibao-index">
+                            <p style="background-color: #eab209;"><img src="img/sony-bf1.jpg"><a href="#">索尼梦想教室</a>
+                            </p>
+                            <img src="img/banner_s_01.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <!--t-article-->
+                <div class="t-article">
+                    <div class="t-article-new">
+                        <h1><a href="#">CSR新闻</a></h1>
+                        <p><a href="#"><img src="img/sony-bf3.jpg" />了解更多</a></p>
+                    </div>
+                    <div class="t-article-list">
+                        <dl>
+                            <dt>2019/05/24</dt>
+                            <dd><a href="#">索尼梦想教室走进清华大学：索尼精选带来世界的“好声音”</a></dd>
+                        </dl>
+                    </div>
+                    <div class="t-article-list">
+                        <dl>
+                            <dt>2019/05/20</dt>
+                            <dd><a href="#">索尼大学生环保先锋训练营再次来袭 全国十所高校精英在无锡工厂同场竞技</a></dd>
+                        </dl>
+                    </div>
+                    <div class="t-article-list">
+                        <dl>
+                            <dt>2019/04/29</dt>
+                            <dd><a href="#">索尼中国入选中电标协《2019电子信息行业绿色供应链最佳实践》企业</a></dd>
+                        </dl>
+                    </div>
+                    <div class="t-article-list">
+                        <dl>
+                            <dt>2018/12/26</dt>
+                            <dd><a href="#">索尼践行社会责任 2018斩获多项荣誉</a></dd>
+                        </dl>
+                    </div>
+                    <div class="t-article-list">
+                        <dl>
+                            <dt>2018/12/25</dt>
+                            <dd><a href="#">北大学子探营索尼 黑科技等你一道开启</a></dd>
+                        </dl>
+                    </div>
+                    <div class="t-article-list">
+                        <dl>
+                            <dt>2018/12/13</dt>
+                            <dd><a href="#">同一片蓝天，创造属于你的精彩</a></dd>
+                        </dl>
+                    </div>
+                    <div class="t-article-list">
+                        <dl>
+                            <dt>2018/11/19</dt>
+                            <dd><a href="#">索尼在惠州工厂举办大学生环保先锋训练营</a></dd>
+                        </dl>
+                    </div>
+
+                    <div class="t-article-baogao">
+                        <a href="#"><img src="img/sony-002.jpg"></a>
+                        <a href="#"><img src="img/sony-003.jpg"></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="con"><img src="img/zhili.jpg" /></div>
+            <div class="con"><img src="img/zheren.jpg" /></div>
+            <div class="con"><img src="img/yuangong.jpg" /></div>
+            <div class="con"><img src="img/chanpin.jpg" /></div>
+            <div class="con"><img src="img/shequjiaoyu.jpg" /></div>
+            <div class="con"><img src="img/huanjing.jpg" /></div>
+            <div class="con"><img src="img/gaoceng.jpg" /></div>
+
+            <script>
+                $('.t-nav1 ul li').click(function () {
+                    $(this).addClass('active').siblings().removeClass('active');
+                    var index = $(this).index();
+                    $('.con').eq(index).addClass('show').siblings().removeClass('show');
+                })
+            </script>
+
+
+
+        </div>
+        <!--footer-->
+        <div class="t-footer">
+            <div class="t-footer-all">
+                <!-- t-footer-l -->
+                <div class="t-footer-l">
+                    <ul>
+                        <li><a href="#" style="color: #808183">你周边的经销商</a></li>
+                        <li><a href="#" style="color: #ffffff">就近门查询<img src="img/sony-005.jpg" /></a></li>
+
+                    </ul>
+                </div>
+                <!-- t-footer-c -->
+                <div class="t-footer-c">
+                    <ul>
+                        <li>商品购买</li>
+                        <li>会员天地</li>
+                        <li>相关链接</li>
+                    </ul>
+                    <br />
+                    <ul>
+                        <li><a href="#">Sony Store 直营店</a></li>
+                        <li><a href="#">产品注册</a></li>
+                        <li><a href="#">索尼中国研究院</a></li>
+                    </ul>
+                    <br />
+                    <ul>
+                        <li><a href="#">索尼签约经销商</a></li>
+                        <li><a href="#">索尼会员注册</a></li>
+                        <li><a href="#">行业解决方案</a></li>
+                    </ul>
+                    <br />
+                    <ul>
+                        <li><a href="#">Sony Store 在线商城</a></li>
+                        <li><a href="#">会员权益详细</a></li>
+
+                    </ul>
+                    <br />
+                    <ul>
+                        <li><a href="#">Sony Store 手机客户端</a></li>
+                        <li><a href="#">帮助中心</a></li>
+
+                    </ul>
+                    <br />
+                    <ul>
+                        <li><a href="#">在线订购指南</a></li>
+                        <li><a href="#">索尼影像课堂</a></li>
+
+                    </ul>
+                    <br />
+                    <ul>
+                        <li><a href="#">咨询.订购.服务热线</a></li>
+
+                    </ul>
+                    <br />
+                    <ul>
+                        <li><a href="#" style="color: #808183;">在线服务<img src="img/sony-006.jpg" /></a></li>
+
+                    </ul>
+                </div>
+                <!-- t-footer-r -->
+                <div class="t-footer-r">
+                    <ul>
+                        <li>保持联络</li>
+                        <li><a href="#">获取最新产品/活动的邮箱</a></li>
+                    </ul>
+                    <i>关注我们:</i>
+                    <p><a href="#">索尼(中国)官网微博</a></p>
+                    <p><a href="#">索尼(中国)官网微信</a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <!---content-->
+        <div class="content">
+            <div class="content-all">
+                <div class="content-a">
+                    <ul>
+                        <li><img src="img/sony-logo.jpg" /></li>
+                        <li>2009-2019索尼(中国)有限公司版权所有</li>
+                        <li><a href="#">京ICP备05036958号</a></li>
+                        <li><img src="img/sony-007.jpg" />京公网安备11010502031162号</li>
+                        <li>诚信网站验证</li>
+                    </ul>
+                </div>
+                <div class="content-b">
+                    <ul>
+                        <li><a href="#">责任声明</a></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li>本网站包含推销产品和服务的广告</li>
+                    </ul>
+                    <p><img src="img/sony-009.jpg"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
