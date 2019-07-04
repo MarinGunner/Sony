@@ -167,8 +167,9 @@ body,html{
 .head-right img:nth-child(1){
     padding: 25px 0 0  18px;
 }
-.head-right img:nth-child(2){
-    padding: 25px 0 0 118px;
+.head-right a img:nth-child(2){
+	display: inline-block;
+    float: right;
 }
 .head-right img:nth-child(2):hover{
     opacity: 0.65;
