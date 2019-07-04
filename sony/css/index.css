@@ -62,9 +62,10 @@ body,html{
     cursor: pointer;
     border-bottom: 4px solid  #009ffb;
 }
-.nav ul li:nth-child(1){
+.nav ul .one-li{
     margin-left: 210px;
 }
+
 /* .nav ul li:nth-child(6){
     margin-right:175px;
 } */
@@ -90,9 +91,19 @@ body,html{
     width: 138px;    
     float: left;
     color: #424242;
-    background-color: #ffffff;    
+    background-color: #000000;    
     padding: 10px;
 }
+.nav .serach-input:hover{
+    border-color: #009ffb;
+}
+
+.nav .serach-input:hover{
+    background-color: #ffffff; 
+    border-color: 1px solid #009ffb;   
+}
+
+
 .nav ul{
     background: url(../img/searchBg.gif) no-repeat 390px 18px;
 }
@@ -149,13 +160,18 @@ body,html{
     width: 640px;
     float: left;
 }
-.head-left img:nth-child(1){
+.head-left p{
     padding: 25px 0 0  14px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2e2e2e;
+    float: left;
 }
-.head-left img:nth-child(2){
+.head-left img{
+    float: left;
     padding: 23px 0 0 380px;
 }
-.head-left img:nth-child(2):hover{
+.head-left img:hover{
    opacity: 0.65;
 }
 .head-right{
@@ -167,9 +183,8 @@ body,html{
 .head-right img:nth-child(1){
     padding: 25px 0 0  18px;
 }
-.head-right a img:nth-child(2){
-	display: inline-block;
-    float: right;
+.head-right img:nth-child(2){
+    padding: 25px 0 0 118px;
 }
 .head-right img:nth-child(2):hover{
     opacity: 0.65;
